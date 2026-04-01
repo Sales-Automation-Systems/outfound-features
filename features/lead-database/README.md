@@ -4,14 +4,14 @@
 
 Outfound's lead database is fundamentally different from every other prospecting tool. Instead of buying access to a third-party database you can't control, Outfound builds *your own* lead database automatically from your campaign activity -- and gives you full ownership, full API access, and full export capability.
 
-Every prospect you've ever contacted, enriched with company data, searchable, filterable, and accessible through your own API. This is your outbound intelligence asset, and it grows every time you send an email.
+Every prospect you've ever contacted across any sending platform, enriched with company data, searchable, filterable, and accessible through your own API. This is your outbound intelligence asset, and it grows with every campaign you run.
 
 ---
 
 ## How It Gets Populated
 
 ### Automatic Population from Campaigns
-Every time a campaign sends an email, the prospect data flows into your lead database automatically. This includes:
+Every time a campaign runs on your sending platform (Instantly, Smartlead, EmailBison), the prospect data flows into your Outfound lead database automatically. This includes:
 
 - **Person data** -- Name, email, title, seniority, department, LinkedIn profile, email service provider
 - **Company data** -- Company name, domain, industry, headcount range, LinkedIn profile, revenue range

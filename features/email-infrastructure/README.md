@@ -1,8 +1,8 @@
-# Email Infrastructure Management
+# Email Infrastructure Monitoring
 
-### Keep Your Sending Machine Healthy
+### Full Visibility Into Your Sending Machine
 
-Your email infrastructure is the engine behind your outbound operation. If domains degrade, accounts get throttled, or bounce rates climb, everything else fails. Outfound gives you complete visibility and control over every domain, every email account, and every aspect of your sending infrastructure.
+Your email infrastructure is the engine behind your outbound operation. If domains degrade, accounts get throttled, or bounce rates climb, nothing else matters. Outfound ingests infrastructure data from your sending platforms and gives you complete visibility into every domain, every email account, and every aspect of your sending health -- all in one place.
 
 ---
 
@@ -33,18 +33,18 @@ Every email account connected to Outfound is individually tracked:
 - Health score (via [Mailbox Health](../analytics/mailbox-health.md))
 
 ### Account Status Tracking
-Know the real-time status of every account:
+Know the real-time status of every account across your sending platforms:
 - **Active** -- Sending normally
 - **Disconnected** -- Lost authentication or connectivity
 - **Reconnected** -- Recently restored
 
-### Capacity Management
-Each account has a sending capacity limit. Outfound tracks:
-- **Daily capacity** -- How many emails each account can send
+### Capacity Monitoring
+Outfound tracks sending capacity across all your accounts:
+- **Daily capacity** -- How many emails each account can handle
 - **Utilization** -- How much of that capacity is being used
-- **Total portfolio capacity** -- Aggregate sending power across all accounts
+- **Total portfolio capacity** -- Aggregate sending power across all accounts and platforms
 
-**Why it matters:** Running accounts at 100% capacity degrades deliverability. Running at 20% is waste. Outfound helps you balance the load across your accounts to maximize deliverability while using your infrastructure efficiently.
+**Why it matters:** Running accounts at 100% capacity degrades deliverability. Running at 20% is waste. Outfound surfaces this data across all your sending platforms so you can make informed decisions about account provisioning and load distribution.
 
 ---
 
@@ -76,11 +76,11 @@ Beyond individual bounces, Outfound aggregates bounce data to show:
 
 ### How It Works
 When a contact or domain is added to your DNC list, Outfound:
-- Prevents future emails to that contact/domain across all campaigns
-- Flags any existing conversations with DNC contacts in the unified inbox
-- Blocks the contact from being added to new campaigns
+- Flags the contact/domain across all campaigns and platforms
+- Marks any existing conversations with DNC contacts in the unified inbox
+- Provides a centralized blacklist visible across your entire operation
 
-**Why it matters:** Sending to someone who explicitly asked to be removed (or who is legally protected) creates legal liability and damages your reputation. DNC enforcement at the infrastructure level means compliance is automatic, not dependent on individual team members remembering to check a list.
+**Why it matters:** When you're running campaigns across multiple sending platforms, keeping DNC lists consistent is a nightmare. Outfound centralizes your DNC management so you have one source of truth for contacts that should never be emailed, regardless of which platform runs the campaign.
 
 ---
 
@@ -108,7 +108,7 @@ Outfound tracks performance by email provider (Gmail, Outlook, custom SMTP, etc.
 Monitor the warmup status of new email accounts through daily sending capacity tracking. As accounts warm up and their limits increase, you see the progression in Outfound.
 
 ### Safe Scaling
-Outfound ensures campaigns respect each account's current capacity, preventing new accounts from being overloaded before they're fully warmed.
+Outfound tracks each account's current capacity and warmup progression, giving you clear signals about when accounts are ready for higher volume.
 
 ---
 
@@ -121,7 +121,7 @@ Email infrastructure isn't one thing -- it's the interaction between domains, ac
 
 Outfound gives you visibility into every layer of this system so you can diagnose root causes, not just symptoms.
 
-**Why it's a game-changer:** Most outbound teams treat infrastructure as a black box. They send emails and hope for the best. When deliverability drops, they don't know why. Outfound makes infrastructure a first-class concern with the same depth of analytics you'd expect for campaign performance. This is how professional outbound operations are run.
+**Why it's a game-changer:** Most outbound teams treat infrastructure as a black box. They launch campaigns and hope for the best. When deliverability drops, they don't know why -- and they're checking three different sending platforms trying to figure it out. Outfound aggregates infrastructure data from all your platforms and makes it a first-class concern with the same depth of analytics you'd expect for campaign performance. This is how professional outbound operations are run.
 
 ---
 

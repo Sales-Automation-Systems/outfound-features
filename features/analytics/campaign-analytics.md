@@ -2,7 +2,7 @@
 
 ### Performance Metrics Across Every Dimension
 
-Campaign analytics in Outfound goes far beyond "how many emails did we send and how many replies did we get." It tracks 50+ metrics across every campaign, every variant, every step, every client -- with time-series breakdowns, rolling windows, baseline comparisons, and direct attribution to revenue.
+Campaign analytics in Outfound goes far beyond "how many emails were sent and how many replies came back." It ingests data from your sending platforms and tracks 50+ metrics across every campaign, every variant, every step, every client -- with time-series breakdowns, rolling windows, baseline comparisons, and direct attribution to revenue.
 
 ---
 
@@ -96,7 +96,7 @@ Reports are exportable to CSV with full metric fidelity and custom date range se
 
 ## Real-Time Refresh
 
-Campaign analytics are refreshed every 3 minutes. When you send a batch of emails, you see the results reflected in your dashboard almost immediately. No waiting for nightly aggregation jobs or stale daily reports.
+Campaign analytics are refreshed every 3 minutes. When your sending platform delivers a batch of emails, the results are reflected in Outfound's dashboard almost immediately. No waiting for nightly aggregation jobs or stale daily reports.
 
 **Why it matters:** Outbound is iterative. You launch, you measure, you adjust. A 3-minute feedback loop means you can catch problems early and double down on winners fast.
 

@@ -1,8 +1,8 @@
 # Unified Inbox
 
-### Every Outbound Email in One Place
+### Every Outbound Conversation in One Place
 
-Outfound's unified inbox consolidates every email sent and received across all your campaigns, platforms, and clients into a single, searchable view. No more switching between sending platforms to find a conversation. No more digging through email accounts. Everything is here.
+Outfound's unified inbox pulls in every email conversation from all your sending platforms and clients into a single, searchable view. No more switching between Instantly, Smartlead, and EmailBison to find a conversation. No more digging through individual email accounts. Everything is here.
 
 ---
 
@@ -10,9 +10,9 @@ Outfound's unified inbox consolidates every email sent and received across all y
 
 Every email conversation in your outbound operation:
 
-- **Sent emails** -- Every outbound email your campaigns have delivered
+- **Sent emails** -- Every outbound email delivered by your sending platforms
 - **Received emails** -- Every reply from prospects
-- **Failed emails** -- Emails that failed to send, with failure reasons
+- **Failed emails** -- Emails that failed to deliver, with failure reasons
 - **Archived conversations** -- Past conversations you've marked as handled
 - **DNC-flagged emails** -- Conversations with contacts on your Do Not Contact list
 
@@ -48,7 +48,7 @@ View the full back-and-forth thread of any conversation. See the original outbou
 ## Why It Matters
 
 ### Single Point of Access
-Your team sends emails from Instantly, Smartlead, and EmailBison. Replies come back to different email accounts. Without a unified inbox, finding a specific conversation means logging into the right platform, finding the right account, and searching through that platform's inbox.
+Your team runs campaigns on Instantly, Smartlead, and EmailBison. Replies come back to different accounts on different platforms. Without a unified inbox, finding a specific conversation means logging into the right platform, finding the right account, and searching through that platform's inbox.
 
 Outfound eliminates this entirely. Every conversation, regardless of platform or account, is in one place.
 

@@ -2,14 +2,14 @@
 
 ### Instant Replies When It Matters Most
 
-Outfound's auto-responder system automatically sends email responses when specific types of replies come in. When a prospect shows interest, Outfound can fire an immediate, personalized response -- faster than any human could type it.
+Outfound's auto-responder system triggers automatic email responses through your sending infrastructure when specific types of replies come in. When a prospect shows interest, Outfound detects it, classifies it, and dispatches a pre-configured response -- faster than any human could react.
 
 ---
 
 ## How It Works
 
 ### Trigger-Based Responses
-Auto-responders are triggered by lead categories. When Outfound classifies an incoming reply into a category you've configured, it automatically sends a pre-written response.
+Auto-responders are triggered by lead categories. When Outfound classifies an incoming reply into a category you've configured, it dispatches a pre-written response through your sending infrastructure.
 
 **Example:**
 - Prospect replies with interest → Auto-responder sends a meeting link and brief intro
@@ -55,7 +55,7 @@ Auto-responders are processed through an event-driven system. When a prospect ev
 4. Responses are sent in order, preventing duplicates
 
 ### Billing-Aware
-Auto-responders only fire when your organization's billing status is current. This prevents unexpected email sends during account issues.
+Auto-responders only fire when your organization's billing status is current. This prevents unexpected responses during account issues.
 
 ### Priority Resolution
 When both a campaign-level and client-level config match the same event, the campaign-specific configuration takes priority. This gives you fine-grained control without conflicts.

@@ -1,25 +1,25 @@
 # Outfound
 
-### The Operating System for Outbound Sales
+### The Data Warehouse for Outbound Sales
 
-Outfound is the most complete outbound sales platform ever built. It doesn't just send emails -- it gives you total visibility, total control, and total ownership of your outbound pipeline.
+Outfound is the intelligence layer that sits on top of your sending platforms. It doesn't send emails -- your tools do that. Outfound ingests all the data from those tools and gives you total visibility, total control, and total ownership of your outbound pipeline.
 
-While other tools give you a campaign builder and call it a day, Outfound wraps your entire outbound operation in a single, deeply integrated system: campaigns, analytics, attribution, CRM sync, lead database, AI-powered data exploration, automations, and developer APIs -- all working together.
+While sending platforms give you a campaign builder and call it a day, Outfound unifies data from every platform into a single, deeply integrated system: analytics, attribution, CRM sync, lead database, AI-powered data exploration, automations, and developer APIs -- all working together.
 
 ---
 
 ## Why Outfound Exists
 
-Outbound teams today are duct-taping together 5-10 tools: a sending platform, an analytics dashboard, a CRM, a lead database, a webhook router, a notification system. Each tool has a fragment of the picture. None of them talk to each other well. And nobody owns the data.
+Outbound teams today are duct-taping together 5-10 tools: a sending platform, an analytics dashboard, a CRM, a lead database, a webhook router, a notification system. Each tool has a fragment of the picture. None of them talk to each other well. And nobody owns the data. Worst of all, your prospect intelligence is locked inside whichever sending tool you happen to use.
 
-Outfound replaces that entire stack with one platform where everything is connected, everything is measurable, and you actually own your data.
+Outfound sits above all of it -- ingesting data from your sending platforms and turning it into a unified system where everything is connected, everything is measurable, and you actually own your data.
 
 ---
 
 ## Feature Overview
 
-### [Campaigns](features/campaigns/README.md)
-Multi-channel campaign management with email sequences, A/B variant testing, smart scheduling, and per-account sending controls. Run campaigns across Instantly, Smartlead, and EmailBison from one place.
+### [Campaign Intelligence](features/campaigns/README.md)
+Unified visibility into campaigns running across Instantly, Smartlead, and EmailBison. Track sequences, A/B variants, scheduling configurations, and per-account sending activity -- all from one place, regardless of which platform does the sending.
 
 ### [Deep Analytics](features/analytics/README.md)
 The most comprehensive outbound analytics in the market. Campaign performance, infrastructure health, copy/offer testing, lead response categorization, and mailbox-level health scoring -- all powered by a real-time OLAP engine.
@@ -49,7 +49,7 @@ Real-time Slack notifications when prospects reply, book meetings, or convert. C
 Forward any outbound event to any system. Campaign events, attribution events, lead category changes -- route them to your internal tools, Zapier, Make, or custom endpoints.
 
 ### [Auto-Responders](features/automation/auto-responders.md)
-Automatically reply to specific lead categories. When a prospect shows interest or books a meeting, Outfound can fire an immediate, personalized response -- no human delay.
+Trigger automatic replies through your sending infrastructure when specific lead categories are detected. When a prospect shows interest or books a meeting, an immediate response goes out -- no human delay.
 
 ### [Platform Integrations](features/integrations/platform-integrations.md)
 Native integrations with Instantly.ai, Smartlead.ai, and EmailBison. Outfound normalizes data from every platform into a single, consistent data model.
@@ -58,13 +58,13 @@ Native integrations with Instantly.ai, Smartlead.ai, and EmailBison. Outfound no
 Full REST API with scoped API keys, rate limiting tiers, and comprehensive endpoint coverage. Build custom workflows, dashboards, or integrations on top of your outbound data.
 
 ### [Unified Inbox](features/inbox/README.md)
-Every email sent and received across all campaigns, in one searchable inbox. Filter by status, campaign, lead category, or conversation thread.
+Every email conversation across all campaigns and sending platforms, in one searchable inbox. Filter by status, campaign, lead category, or conversation thread.
 
 ### [Team & Workspace Management](features/team-and-workspace/README.md)
 Multi-tenant workspaces with granular role-based permissions. Agencies can manage multiple clients from one account with full data isolation.
 
-### [Email Infrastructure](features/email-infrastructure/README.md)
-Monitor domain health, track bounce rates, manage DNC lists, and keep your sending infrastructure in top shape -- all from within the platform.
+### [Email Infrastructure Monitoring](features/email-infrastructure/README.md)
+Monitor domain health, track bounce rates, manage DNC lists, and keep your sending infrastructure visible -- all from within the platform.
 
 ---
 
