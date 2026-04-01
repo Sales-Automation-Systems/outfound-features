@@ -1,6 +1,6 @@
 # Outfound
 
-### The Data Warehouse for Outbound Sales
+### The Operating System for Outbound Sales
 
 Outfound is the intelligence layer that sits on top of your sending platforms. It doesn't send emails -- your tools do that. Outfound ingests all the data from those tools and gives you total visibility, total control, and total ownership of your outbound pipeline.
 
